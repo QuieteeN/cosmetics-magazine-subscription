@@ -1,0 +1,122 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background: #00000044;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s all;
+    z-index: 2;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal__content {
+    border-radius: 5px;
+    background: #fff;
+    transform: scale(0.5);
+    transition: 0.3s all;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 480px;
+    align-content: center;
+    position: relative;
+}
+
+.modal__content.active {
+    transform: scale(1);
+}
+
+.modal__content h2 {
+    color: #1D1D1DFF;
+    margin: 0px 0 18px;
+    border-radius: 5px;
+    background: #f4f4f4;
+    padding: 14px 30px 4px;
+    border-bottom: 1px solid #f4f4f4;
+    font-size: 25pt;
+}
+
+.modal__content p {
+    font-size: 13pt; 
+    margin-bottom: 10px; 
+    padding: 5px 30px 0;
+    width: 95%;
+}
+
+.modal__content .image:hover{
+    background: #e1e1e1ff;
+    z-index: 1;
+}
+.modal__content .image {
+    border-radius: 5px;
+    transition: all ease .5s;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.modal__content img{
+    filter: invert(.25);
+    width: 25px;
+    height: auto;
+    transform: rotate(45deg);
+    transition: all ease .5s;
+}
+
+.modal__content input {
+    background: #10C9C3FF;
+    border: 1px solid #10C9C3FF;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12pt;
+    font-weight: 600;
+    margin: 20px 0 0px;
+    transition: 0.4s;
+    padding: 10px 20px;
+    transition: all ease .5s;
+}
+
+.modal__content input:first-child {
+    margin-right: 10px;
+    background: transparent;
+    color: #10C9C3FF;
+}
+
+.modal__content input:first-child:hover {
+    background: #f4f4f4;
+}
+
+.modal__content .inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px 20px;
+}
+
+.modal__content input:hover {
+    background: #f4f4f4;
+    color: #10C9C3FF;
+    transform: translate(-1px, -1px);
+}
+
+
+@media (max-width: 500px) {
+
+    .modal__content {
+        max-width: 90%;
+    }
+    
+}

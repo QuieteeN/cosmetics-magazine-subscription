@@ -1,0 +1,321 @@
+@media (max-width: 1440px) {
+
+    header {
+        /* border-bottom: 1px solid transparent;  */
+        background-color: #141414FF; 
+    }
+    
+    .logo .logo_img {
+        max-height: 45px;
+        filter: invert(.9);
+    }
+
+    ul.nav {
+        flex-direction: column;
+    }
+    
+    ul.nav::before {
+        background: url('./../menu.png');
+        background-size: auto 100%;
+        content: '';
+        height: 40px;
+        width: 50px;
+        margin: 20px 0px;
+        padding: 0;
+        filter: invert(.9);
+    }
+    
+    ul.nav li.nav_item {
+        display: none;
+        position: absolute;
+        margin: 0;
+        background-color: #141414FF;
+        border: 1px solid #E9E9E9FF;
+        width: 150px;
+        padding: 5px 10px;
+        transition: 0.4s;
+        z-index: 1;
+        cursor: pointer;
+        color: #E5E5E5FF;
+    }
+
+    ul.nav:hover li.nav_item {
+        display: inline-block;
+        top: 80px
+    }
+
+    ul.nav:hover li.nav_item:nth-child(2) {
+        top: 123px
+    }
+
+    ul.nav:hover li.nav_item:nth-child(3) {
+        top: 166px
+    }
+
+    ul.nav:hover li.nav_item:nth-child(4) {
+        top: 209px
+    }
+
+    ul.nav:hover li.nav_item:nth-child(5) {
+        top: 252px
+    }
+
+    ul.nav:hover li.nav_item:nth-child(6) {
+        top: 295px
+    }
+
+    ul.nav:hover li.nav_item:nth-child(7) {
+        top: 338px;
+    }
+    
+    ul.nav li.nav_item:hover {
+        background-color: rgba(238,238,238,1);;
+    }
+    
+    /* Section About Us */
+    section.about_us {
+        background: rgba(233,233,233,1);
+        background-size: auto 100%;
+        height: auto;
+    }
+
+    section.about_us .section_content_half {
+        width: 100%;
+        margin-bottom: 200px;
+    }
+
+    
+    /* Section Company */
+    section.founder {
+        padding-bottom: 90px;
+        text-align: center;
+    }
+    
+    section.founder .section_content {
+        margin-top: 90px;
+    }
+    
+    section.founder .section_content .section_description {
+        padding-top: 25px;
+    }
+    
+    section.founder .section_content p.signature {
+        margin-top: 25px;
+    }
+    
+    
+    /* Section Catalog */
+    
+    section.catalog .content {
+        justify-content: flex-start;
+    }
+    
+    section.catalog .section_content {
+        width: 100%;
+        padding: 100px 0 130px;
+    }
+    
+    section.catalog .section_content p {
+        font-size: 14pt;
+    }
+    
+    section.catalog .image {
+        display: none;
+    }
+    
+    section.products_plus .content {
+        padding: 85px 0 45px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    section.products_plus div.plus {
+        margin-bottom: 40px;
+        width: 300px;
+    }
+    
+    section.products_plus div.plus img {
+        filter: invert(1);
+        height: auto;
+        width: 43px;
+    }
+    
+    section.products_plus div.plus h3 {
+        font-size: 16pt;
+    }
+    
+    section.products_plus div.plus p {
+        font-size: 12pt;
+    }
+    
+    
+    /* Section Gallery */
+    
+    section.gallery .product {
+        height: 200px;
+    }
+    
+    section.gallery .btn_catalog a.catalog_link {
+        padding: 35px 0;
+    }
+    
+    
+    /* Section Business */
+    
+    section.business .section_content p {
+        margin: 25px auto 0;
+    }
+    
+    section.business .content {
+        padding: 85px 0 90px;
+    }
+    
+    section.business .content iframe {
+        height: 452px;
+        margin-top: 40px;
+    }
+    
+    section.business_ad .content {
+        padding: 95px 0 75px;
+        justify-content: space-around;
+    }
+    
+    section.business_ad .content .adv_item {
+        margin-bottom: 60px;
+    }
+    
+    section.business_ad .content .adv_item .adv_ico img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    section.business_ad .content .adv_item h3 {
+        font-size: 16pt;
+        margin-top: 10px;
+    }
+    
+    section.business_ad .content .adv_item p {
+        font-size: 13.8pt;
+        margin-top: 10px;
+    }
+    
+    
+    /* Section Questions */
+    section.questions .content {
+        padding: 90px 0 100px;
+    }
+    
+    section.questions .section_content .q_block div.question {
+        font-size: 12pt;
+    }
+    
+    section.questions .section_content .q_block div.answer {
+        font-size: 12pt;
+    }
+    
+    section.questions .section_content .q_block div.question .adv_ico img {
+        height: 30px;
+        width: 30px;
+    }
+    
+    
+    /* Section Registration */
+    section.logos .content {
+        height: 180px;
+        padding: 50px 0;
+    }
+    
+    section.registration .content {
+        padding: 90px 0;
+    }
+    
+    section.registration .content .section_content {
+        width: 600px;
+    }
+    
+    section.registration .content .section_content p {
+        margin-top: 25px;
+    }
+    
+    section.registration .content .section_content form {
+        margin-top: 35px;
+    }
+    
+    section.registration .content .section_content form input.typing {
+        font-size: 11pt;
+        line-height: 11pt;
+        margin-bottom: 35px;
+        padding: 15px 18px;
+        width: 290px;
+    }
+    
+    section.registration .content .section_content form p {
+        width: 290px;
+    }
+    
+    section.registration .content .section_content form p:nth-child(2) {
+        left: 0;
+        top: 190px;
+    }
+    
+    section.registration .content .section_content form p:nth-child(4) {
+        right: 0;
+        top: 190px;
+    }
+    
+    section.registration .content .section_content form p:nth-child(6) {
+        left: 0;
+        top: 280px;
+    }
+    
+    section.registration .content .section_content form p:nth-child(8) {
+        right: 0;
+        top: 280px;
+    }
+    
+    section.registration .content .section_content form p:nth-child(10) {
+        top: 370px;
+    }
+    
+    section.registration .content .section_content form input[name="address"] {
+        width: 600px;
+    }
+    
+    
+    /* Footer */
+    footer {
+        font-size: 10pt;
+    }
+    
+    footer .content {
+        padding: 75px 0 80px;
+    }
+    
+    footer img {
+        height: 10pt;
+        margin-right: 4px;
+        width: 10pt;
+    }
+    
+    footer .section_content_third {
+        width: 33%;
+    }
+    
+    footer .section_content_third h4 {
+        font-size: 15pt;
+    }
+    
+    
+    /* Gallery Modal */
+    
+    .modal_content {
+        max-width: 70%;
+        padding: 10px;
+    }
+    
+    .modal_content img.g_img{
+        height: auto;
+        max-width: 600px;
+        min-width: 400px;
+    }
+}

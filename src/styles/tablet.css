@@ -1,0 +1,197 @@
+@media (max-width: 768px) {
+
+    ul.nav:hover li.nav_item {
+        right: calc((100% - 500px)/2);
+    }
+
+    section.founder .section_content p.signature::after {
+        display: none;
+    }
+
+    section.gallery .product,
+    section.logos {
+        display: none;
+    }
+
+    section.products_plus div.plus {
+        width: 100%;
+    }
+
+    section.registration .content .section_content {
+        width: 100%;
+    }
+
+    section.registration .content .section_content form input.typing {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    section.registration .content .section_content form p{
+        width: 100%;
+    }
+
+    section.registration .content .section_content form p:nth-child(2) {
+        top: 190px;
+    }
+    
+    section.registration .content .section_content form p:nth-child(4) {
+        top: 276px;
+    }
+    
+    section.registration .content .section_content form p:nth-child(6) {
+        top: 362px;
+    }
+    
+    section.registration .content .section_content form p:nth-child(8) {
+        top: 448px;
+    }
+    
+    section.registration .content .section_content form p:nth-child(10) {
+        top: 534px;
+    }
+
+    section.registration .content .section_content form input[type="button"] {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 12pt;
+    }
+
+    footer .content {
+        flex-wrap: wrap;
+    }
+
+    footer .section_content_third {
+        width: 50%;
+        margin-bottom: 70px;
+    }
+
+    footer .section_content_third:last-child {
+        width: 100%;
+    }
+
+    footer .section_content_third:last-child ol.info{
+        width: 25%;
+    }
+
+    footer .section_content_third:last-child ol.info:nth-child(3) {
+        display: flex;
+    }
+
+    footer .section_content_third:last-child ol.info:nth-child(4) {
+        width: 25%;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+
+    ul.nav:hover li.nav_item {
+        right: calc((100% - 85%)/2);
+    }
+
+    section.business .section_content p {
+        width: 100%;
+    }
+
+    section.business .content iframe {
+        height: 282px;
+    }
+
+    section.business_ad .content .adv_item {
+        margin-bottom: 45px;
+        width: 80%;
+    }
+    
+}
+
+@media (max-width: 508px) {
+    section.registration .content .section_content form p:nth-child(2) {
+        top: 225px;
+    }
+    
+    section.registration .content .section_content form p:nth-child(4) {
+        top: 311px;
+    }
+    
+    section.registration .content .section_content form p:nth-child(6) {
+        top: 397px;
+    }
+    
+    section.registration .content .section_content form p:nth-child(8) {
+        top: 483px;
+    }
+    
+    section.registration .content .section_content form p:nth-child(10) {
+        top: 569px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    section.business .content iframe {
+        height: 242px;
+    }
+
+    section.business_ad .content .adv_item {
+        width: 85%;
+    }
+
+    footer .section_content_third {
+        width: 100%;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .section_content_third:last-child{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    footer .section_content_third:last-child ol.info{
+        width: 30%;
+    }
+
+    footer .section_content_third:last-child ol.info:nth-child(3) {
+        display: none;
+    }
+
+    footer .section_content_third:last-child ol.info:nth-child(4) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+
+    footer .section_content_third:last-child ol.info:nth-child(4) li {
+        width: 35%;
+        position: relative;
+        left: 3%;
+    }
+    
+}
+
+@media (max-width: 375px) {
+
+    section.business .content iframe {
+        height: 190px;
+    }
+    
+}
+
+@media (max-width: 320px) {
+
+    section.business .content iframe {
+        height: 170px;
+    }
+    
+}
